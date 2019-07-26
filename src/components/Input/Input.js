@@ -78,7 +78,7 @@ export default function Input(props: Props) {
       <TextInput
         ref={inputRef}
         style={getInputStyle()}
-        autoCapitalize={false}
+        autoCapitalize='none'
         value={value}
         autoCompleteType={autoCompleteType}
         secureTextEntry={password}

@@ -8,13 +8,15 @@ import styles from "./styles";
 type Props = {
     style: ?Object,
     placeholder: string,
-    placeholderTextStyle: ?Object
+    placeholderTextStyle: ?Object,
+    onPress: Function
 };
 
 export default function Input(props: Props) {
     const {
         placeholder,
         placeholderTextStyle,
+        onPress
     } = props;
 
     const getButtonStyle = () => {
@@ -25,7 +27,7 @@ export default function Input(props: Props) {
     return (
         <View style={{height:50}}>
         <TouchableOpacity
-            onPress={()=>console.log('lol')}
+            onPress={onPress}
             style={getButtonStyle()}>
             <Text textTransform='capitalize' style={[styles.text,placeholderTextStyle]}>{placeholder}</Text>
         </TouchableOpacity>
