@@ -111,9 +111,7 @@ export default function Login() {
         </View>
         <View style={styles.form}>
           {animationState === 1 ?
-            <Animated.View style={[styles.round1, position1]} />
-          : null}
-          {animationState === 2?<Animated.View style={[styles.round2, position2]} />: null }
+            <Animated.View style={[styles.round1, position1]}/> : <Animated.View style={[styles.round2, position2]} /> }
           <Input
             placeholder="email"
             autoCompleteType="email"

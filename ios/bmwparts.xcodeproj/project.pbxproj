@@ -17,7 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* bmwpartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bmwpartsTests.m */; };
-		57A8F0D422EAEDA1002091BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A8F0D322EAEDA0002091BB /* GoogleService-Info.plist */; };
+		5782865D22F18178005384B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5782865C22F18178005384B4 /* GoogleService-Info.plist */; };
 		63D73CF378524367E114783E /* libPods-bmwparts-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B457DB767B0DB3544F9208A /* libPods-bmwparts-tvOS.a */; };
 		B218D45FF5012EA91766DE9A /* libPods-bmwparts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6955B0F915F524BF0E2E7F /* libPods-bmwparts.a */; };
 		F2121284390B6C497D030BCE /* libPods-bmwparts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 920D7B38C6F530F8FFC04961 /* libPods-bmwparts-tvOSTests.a */; };
@@ -58,7 +58,7 @@
 		39595EF6F781801F595F6A7F /* Pods-bmwparts-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bmwparts-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bmwparts-tvOSTests/Pods-bmwparts-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		49310DB815CF9F5AE43A9AB8 /* Pods-bmwparts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bmwparts.release.xcconfig"; path = "Pods/Target Support Files/Pods-bmwparts/Pods-bmwparts.release.xcconfig"; sourceTree = "<group>"; };
 		4F6955B0F915F524BF0E2E7F /* libPods-bmwparts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bmwparts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57A8F0D322EAEDA0002091BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5782865C22F18178005384B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5B457DB767B0DB3544F9208A /* libPods-bmwparts-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bmwparts-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		746DAA37F829F0FA6D77303F /* Pods-bmwparts-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bmwparts-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bmwparts-tvOSTests/Pods-bmwparts-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		920D7B38C6F530F8FFC04961 /* libPods-bmwparts-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bmwparts-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +127,7 @@
 		13B07FAE1A68108700A75B9A /* bmwparts */ = {
 			isa = PBXGroup;
 			children = (
-				57A8F0D322EAEDA0002091BB /* GoogleService-Info.plist */,
+				5782865C22F18178005384B4 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -341,8 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5782865D22F18178005384B4 /* GoogleService-Info.plist in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				57A8F0D422EAEDA1002091BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
